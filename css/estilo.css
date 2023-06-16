@@ -54,7 +54,7 @@ nav {
     background-image: url('../img/barcos.webp');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 0rem;
     height: 450px;
 }
 
