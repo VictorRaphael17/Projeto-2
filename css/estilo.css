@@ -1,0 +1,233 @@
+html {
+    font-family: sans-serif;
+    background-color: #f8f6f7;
+    min-width: 1000px;
+}
+
+.maior-largura {
+    width: 100%;
+}
+
+.menu {
+    font-size: 1.2rem;
+    flex: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    position: fixed;
+    background-color: white;
+}
+
+.menu-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.viagens123 {
+    font-weight: bold;
+}
+
+.cor-1 {
+    color: #f35926; 
+    font-size: 2em;
+}
+
+.cor-2 {
+    color: #fcb929;
+    font-size: 2em;
+}
+
+.cor-3 {
+    color: #00b049;
+    font-size: 2em;
+}
+
+nav {
+    font-size: 1rem;
+    word-spacing: 2rem;
+}   
+
+.fundo {
+    background-image: url('../img/barcos.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 2.5rem 1rem;
+    height: 450px;
+}
+
+.formulario {
+    width: 1000px;
+    margin: 4rem auto;
+}
+
+form {
+    margin-top: 1rem;
+    background-color: #f8f6f7;
+    padding: 2rem 2rem 2rem;
+    height: 145px;
+    border-radius: 13px;
+    font-size: 1rem;
+}
+
+.largura-input-button {
+    width: 179.8px;
+    height: 35px;
+}
+
+input {
+    margin-right: 0.3rem;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.form {
+    display: flex;
+    column-gap: 5px;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    border: 1px solid #ea3d35;
+    background-color: #ea3d35;
+    border-radius: 5px;
+    border-color: #ea3d35;
+    box-shadow: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+button:hover {
+	background: #b94640;
+	border-color: #b94640;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.opcoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+section > h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.config {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    height: 200px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+a {
+    margin-top: 2rem;
+}
+
+.botao-voo {
+    margin-top: 1rem;
+    color: black;
+    background-color: white;
+    border: white;
+    padding: 0.4rem 2rem;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.botao-voo:hover {
+    background-color: white;
+    border: white;
+}
+
+.rio {
+    background-image: url(../img/rio.webp);
+}
+
+.bonito {
+    background-image: url(../img/bonito.webp);
+}
+
+.sp {
+    background-image: url(../img/sao-paulo.webp);
+}
+
+.foz {
+    background-image: url(../img/foz.webp);
+}
+
+.maceio {
+    background-image: url(../img/maceio.webp);
+}
+
+.salvador {
+    background-image: url(../img/salvador.webp);
+}
+
+.fortal {
+    background-image: url(../img/fortaleza.webp);
+}
+
+.bh {
+    background-image: url(../img/belo-horizonte.webp);
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
